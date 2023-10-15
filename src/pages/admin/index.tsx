@@ -4,11 +4,6 @@ import TextField from "../../components/inputs/textfield";
 import AdminNavbar from "../../layouts/AdminNavbar";
 
 import { Dropdown, IconButton } from 'rsuite';
-import PlusIcon from '@rsuite/icons/Plus';
-import PageIcon from '@rsuite/icons/Page';
-import FolderFillIcon from '@rsuite/icons/FolderFill';
-import DetailIcon from '@rsuite/icons/Detail';
-import FileDownloadIcon from '@rsuite/icons/FileDownload';
 
 export default function Admin() {
   const [searchValue, setSearchValue] = useState("");
